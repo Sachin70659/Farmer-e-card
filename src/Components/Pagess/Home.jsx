@@ -19,12 +19,12 @@ export const Home=()=> {
         <div className="flex justify-center space-x-4">
           <a
             href="/Servicess"
-            className="bg-white text-green-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-black transition"
+            className="bg-white text-green-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-green-900 hover:text-white transition"
           >
             Shop Now
           </a>
           <a
-            href="/contacts"
+            href="/Contact"
             className="bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-green-900 transition"
           >
             Contact Us
