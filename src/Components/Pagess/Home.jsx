@@ -18,13 +18,13 @@ export const Home=()=> {
         {/* Call to Action Buttons */}
         <div className="flex justify-center space-x-4">
           <a
-            href="/Servicess"
+            href="/servicess"
             className="bg-white text-green-700 font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-green-900 hover:text-white transition"
           >
             Shop Now
           </a>
           <a
-            href="/Contact"
+            href="/contact"
             className="bg-green-600 text-white font-semibold px-6 py-3 rounded-lg shadow-md hover:bg-green-900 transition"
           >
             Contact Us
