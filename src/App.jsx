@@ -1,11 +1,11 @@
 import React from 'react';
-import { Routes, Route } from 'react-router-dom'
+import { Routes, Route } from 'react-router-dom';
 import { Home } from './Components/Pagess/Home';
 import { About } from './Components/Pagess/About';
 import { Contacts } from './Components/Pagess/Contacts';
 import { Servicess } from './Components/Pagess/Servicess';
 import { Footer } from './Components/Footer';
-import {Navbar} from "./Components/Navbar";
+import { Navbar } from "./Components/Navbar";
 
 export default function App() {
   return (

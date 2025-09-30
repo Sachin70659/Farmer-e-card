@@ -1,7 +1,6 @@
 // Servicess.jsx
 import React from "react";
 import { Api } from "../Api.jsx";
-//import{Api} from "../sarvicesData.jsx";
 export const Servicess = () => {
   return (
     <section className="min-h-screen flex flex-wrap justify-center items-center bg-gray-100 p-5">
