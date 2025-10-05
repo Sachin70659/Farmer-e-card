@@ -4,8 +4,10 @@ import { Home } from './Components/Pagess/Home';
 import { About } from './Components/Pagess/About';
 import { Contacts } from './Components/Pagess/Contacts';
 import { Servicess } from './Components/Pagess/Servicess';
+
 import { Footer } from './Components/Footer';
 import { Navbar } from "./Components/Navbar";
+import { Privacy } from './Components/Privacy';
 
 export default function App() {
   return (
@@ -16,6 +18,8 @@ export default function App() {
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contacts />} />
         <Route path="/servicess" element={<Servicess />} />
+        <Route path="/privacy" element={<Privacy />} />
+
       </Routes>
       <Footer />
     </>

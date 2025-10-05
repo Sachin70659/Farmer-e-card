@@ -3,6 +3,7 @@ import React from "react";
 import { FaFacebook } from "react-icons/fa";
 import { BsTwitterX } from "react-icons/bs";
 import { FaInstagram } from "react-icons/fa6";
+import { Link } from "react-router-dom";
 
 export const Footer = () => {
   return (
@@ -21,9 +22,10 @@ export const Footer = () => {
 
         {/* Middle Section */}
         <div className="flex flex-col space-y-2 md:items-center">
-          <a href="/about" className="hover:text-gray-400 transition">About</a>
-          <a href="/contact" className="hover:text-gray-400 transition">Contact</a>
-          <a href="/privacy" className="hover:text-gray-400 transition">Privacy Policy</a>
+          <Link to="/about" className="hover:text-gray-400 transition">About</Link>
+          <Link to="/contact" className="hover:text-gray-400 transition">Contact</Link>
+          <Link to="/privacy" className="hover:text-gray-400 transition">Privacy Policy</Link>
+          <Link to="/servicess" className="hover:text-gray-400 transition">Terms of Service</Link>
         </div>
 
         {/* Right Section */}
